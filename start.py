@@ -117,7 +117,7 @@ def set_args():
     parser.add_argument('--myname',        default='我', type=str, required=False, help='你的名字')
     
     #大语言模型参数
-    parser.add_argument('--Authorization', default='cchi48mv9mc753cgtpf0', type=str, required=False, help='微信WeLM模型授权码，详见https://welm.weixin.qq.com/docs/api/')
+    parser.add_argument('--Authorization', default='在这里改成你获取的授权码', type=str, required=False, help='微信WeLM模型授权码，详见https://welm.weixin.qq.com/docs/api/')
     parser.add_argument('--Lan_model',     default='xl', type=str, required=False, help='微信WeLM模型，可选medium、 large、xl')
     parser.add_argument('--max_tokens',    default=32, type=int, required=False, help='WeLM模型token数')
     parser.add_argument('--temperature',   default=0.85, type=float, required=False, help='更高的temperature意味着模型具备更多的可能性。对于更有创造性的应用，可以尝试0.85以上，而对于有明确答案的应用')
