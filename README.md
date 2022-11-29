@@ -21,6 +21,6 @@ pip install -r requirements.txt
 
 或者看参数后面的解释（里面包含了结合stable-diffusion的部分，但是现在效果还不行，不要去动它）
 
-3.编辑 聊天记录.txt ，让AI生成符合你的品位的对话，可以尝试用galgame里面的对话，但不宜过多，上限100行
+3.编辑 聊天记录.txt ，让AI生成符合你的品味的对话，可以尝试用galgame里面的对话，但不宜过多，上限100行
 
 4.运行 start.py
